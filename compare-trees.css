@@ -1,0 +1,15 @@
+.axis .domain {
+    display: none;
+}
+
+svg {
+    max-height: 400px;
+
+    margin: 0 auto; /* poor attempt at centering */
+
+    height: auto !important; /* overrides inline */
+    width: auto !important; /* overrides inline */
+
+    max-width: 900px;
+    display: block;
+}
